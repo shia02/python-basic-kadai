@@ -1,8 +1,5 @@
-array = ["水","金","地","火","木","土","天","海","冥"]
-for week in array:
-    print(week)
+def add_tax(price: int, tax: int):
+    return price + price * (tax / 100)
 
-i = 0
-while i < len(array):
-    print(array[i])
-    i += 1
+tax_add_price = add_tax(110, 10)
+print(tax_add_price)
