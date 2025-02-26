@@ -1,11 +1,8 @@
-import random
+array = ["水","金","地","火","木","土","天","海","冥"]
+for week in array:
+    print(week)
 
-var = random.randint(1, 30)
-if var % 15 == 0:
-    print("FizzBuzz")
-elif var % 3 == 0:
-    print("Fizz")
-elif var % 5 == 0:
-    print("Buzz")
-else:
-    print(var)
+i = 0
+while i < len(array):
+    print(array[i])
+    i += 1
