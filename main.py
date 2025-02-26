@@ -1,11 +1,8 @@
-array = {0: "月曜日は晴れです",
-         1: "火曜日は雨です",
-         2: "水曜日は晴れです",
-         3: "木曜日は晴れです",
-         4: "金曜日は曇りです",
-         5: "土曜日は曇りのち雨です",
-         6: "日曜日は雷雨です"}
-dictionary = {"mon": "晴れ", "tue": "雨", "wed": "晴れ", "thu": "晴れ", "fri": "曇り", "sat": "曇りのち雨", "sun": "雷雨"}
+array = ["水","金","地","火","木","土","天","海","冥"]
+for week in array:
+    print(week)
 
-print(array[2])
-print(dictionary["wed"])
+i = 0
+while i < len(array):
+    print(array[i])
+    i += 1
