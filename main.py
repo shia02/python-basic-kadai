@@ -1,11 +1,11 @@
-array = ["月曜日は晴れです",
-         "火曜日は雨です",
-         "水曜日は晴れです",
-         "木曜日は晴れです",
-         "金曜日は曇りです",
-         "土曜日は曇りのち雨です",
-         "日曜日は雷雨です"]
-dictionary = {"mon": "晴れ", "tue": "雨", "wed": "晴れ", "thu": "晴れ", "fri": "曇り", "sat": "曇りのち雨", "sun": "雷雨"}
+import random
 
-print(array[2])
-print(dictionary["wed"])
+var = random.randint(1, 30)
+if var % 15 == 0:
+    print("FizzBuzz")
+elif var % 3 == 0:
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:
+    print(var)
