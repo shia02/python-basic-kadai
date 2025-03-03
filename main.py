@@ -1,8 +1,9 @@
-price1 = 100
-price2 = 200
-tax = 1.1
+class Human:
+    def __init__(self, name: str, age: int) -> None:
+        self.name = name
+        self.age = age
+    def printinfo(self):
+        print(self.name + ' ' + str(self.age))
 
-def total():
-    return price1 + price2
-
-print (total() * tax)
+human = Human("test", 30)
+human.printinfo()
