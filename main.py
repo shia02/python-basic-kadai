@@ -5,9 +5,9 @@ class Human:
 
     def check_adult(self):
         if self.age >= 20:
-            print("adult")
+            print(self.name + " is adult.")
         else:
-            print("child")
+            print(self.name + " is not adult.")
 
 humans = [Human("human1", 21), Human("human2", 19)]
 human3 = Human("human3", 20)
